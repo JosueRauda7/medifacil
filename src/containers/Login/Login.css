@@ -9,11 +9,33 @@
 
 .LeftLogin{
   flex: 5;
-  background-color: #43aefa;
+  background: #564FCC;
+  /* background: linear-gradient(#6264A7,#515396,#6264A7); */
   padding: 20px;
 }
 
+.HeroTitle{
+  color: white;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.LogoMedifacil{
+  /* filter: drop-shadow(0 0 2px white); */
+  /* background: #6C63FF; */
+  border-radius: 15px;
+  /* box-shadow: -2px -2px 10px 3px #403d7c, 2px 2px 2px #534dbd; */
+  padding: 5px;
+}
+
+.ImageContainer{
+  display: flex;
+  justify-content: center;
+}
+
 .HeroImage{
+  filter: drop-shadow(0 0 5px #333);
   width: 60%;
 }
 
@@ -34,4 +56,13 @@
   text-align: center;
   color: #323232;
   font-size: 3em;
+}
+
+.ErrorLabel {
+  color: #e82056;
+}
+
+.switchLink {
+  color: #009add;
+  cursor: pointer;
 }

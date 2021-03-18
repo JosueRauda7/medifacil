@@ -6,7 +6,7 @@ function LoginImage(props) {
       data-name='Layer 1'
       xmlns='http://www.w3.org/2000/svg'
       width={854.557}
-      height={577.897}
+      height={415.897}
       viewBox='0 0 854.557 577.897'
       {...props}>
       <path fill='#ccc' d='M151.557 268h110v123h-110z' />

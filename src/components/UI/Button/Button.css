@@ -1,0 +1,16 @@
+.Button{
+  width: 75%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.4em;
+  color: aliceblue;
+  padding: 8px 0;
+  border-radius: 9px;
+  background: #009ADD;
+}
+
+.Button:hover{
+  background: #00C2CB;
+}

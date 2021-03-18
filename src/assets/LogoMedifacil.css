@@ -1,0 +1,16 @@
+.Logo{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.LogoMedifacil{
+  width: 8%;
+  /* height: 10%; */
+}
+
+.Logo h1{
+  color: white;
+  text-align: center;
+  margin: auto 10px;
+}
