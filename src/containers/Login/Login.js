@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Login.css";
 import LoginImage from "../../assets/LoginImage";
 import LoginForm from "../../components/LoginForm/LoginForm";
@@ -8,7 +8,9 @@ const Login = (props) => {
   return (
     <div className='Login'>
       <div className='LeftLogin'>
-        <LogoMedifacil className='LogoMedifacil' />
+        <div className='NoResponsive'>
+          <LogoMedifacil color='white' width={100} />
+        </div>
         <div className='ImageContainer'>
           <LoginImage className='HeroImage' />
         </div>
@@ -18,9 +20,14 @@ const Login = (props) => {
         </h1>
       </div>
       <div className='RigthLogin'>
-        <h1>Bienvenido!</h1>
-        <hr className='hr' />
-        <LoginForm />
+        <div className='Responsive'>
+          <LogoMedifacil notShowText color='#323232' width={20} />
+        </div>
+        <div className='form'>
+          <h1>Bienvenido!</h1>
+          <hr className='hr' />
+          <LoginForm />
+        </div>
       </div>
     </div>
   );

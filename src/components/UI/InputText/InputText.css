@@ -28,3 +28,57 @@
 .PasswordEye{
   cursor: pointer;
 }
+
+/* Smarthphones */
+
+@media (max-width: 480px) and (orientation: portrait){
+  .Input input {
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+    /* flex: 6; */
+  }
+
+  .IcoInput {
+    flex: 1;
+  }
+
+  label{
+    font-size: 20px;
+  }
+}
+
+@media (max-height: 480px) and (orientation: landscape){
+  .Input input {
+    font-size: 20px;
+    padding: 10px;
+    width: 90%;
+    /* flex: 6; */
+  }
+
+  .IcoInput {
+    flex: 1;
+  }
+
+  label{
+    font-size: 20px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) and (orientation: portrait){
+  .Input input {
+    font-size: 22px;
+    padding: 10px;
+    width: 90%;
+    /* flex: 6; */
+  }
+
+  .IcoInput {
+    flex: 1;
+  }
+
+  .form-group label{
+    font-size: 24px;
+  }
+}

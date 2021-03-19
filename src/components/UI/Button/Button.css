@@ -14,3 +14,11 @@
 .Button:hover{
   background: #00C2CB;
 }
+
+/* Tablets */
+@media (max-width: 768px) and (orientation: portrait){
+  .Button{
+    font-size: 23px;
+    padding: 10px 0;
+  }
+}

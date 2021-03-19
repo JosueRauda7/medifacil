@@ -32,6 +32,7 @@
 .ImageContainer{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .HeroImage{
@@ -65,4 +66,140 @@
 .switchLink {
   color: #009add;
   cursor: pointer;
+}
+
+.Responsive{
+  display: none;
+}
+
+.NoResponsive{
+  display: block;
+  width: 10%;
+}
+
+/* Smartphones */
+
+@media (max-width: 480px) and (orientation: portrait){
+  .NoResponsive{
+    display: none;
+  }
+
+
+  .LeftLogin{
+    display: none;
+  }
+
+  .RigthLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 4;
+  }
+
+  .form{
+    display: block;
+    flex: 3;
+  }
+
+  .Responsive{
+    display: block;
+    flex: 1;
+  }
+}
+
+@media (max-height: 480px) and (orientation: landscape){
+  .NoResponsive{
+    display: none;
+  }
+
+
+  .LeftLogin{
+    display: none;
+  }
+
+  .RigthLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 4;
+  }
+
+  .form{
+    display: block;
+    flex: 3;
+  }
+
+  .Responsive{
+    display: block;
+    flex: 1;
+    margin: auto;
+    width: 40%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) and (min-width:481px) and (orientation: portrait){
+  .LeftLogin{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ImageContainer{
+    align-items: center;
+    flex: 2;
+  }
+
+  .NoResponsive{
+    flex: 1;
+    margin-top: 8vh;
+    margin-bottom: -8vh;
+    width: 25%;
+    font-size: 20pt;
+  }
+
+  .HeroImage{
+    width: 100%;
+  }
+
+  .HeroTitle{
+    margin: auto;
+    font-size: 24pt;
+    flex: 1;
+  }
+}
+
+@media (max-height: 768px) and (min-height:481px) and (orientation: landscape){
+  .LeftLogin{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ImageContainer{
+    align-items: center;
+    flex: 2;
+  }
+
+  .NoResponsive{
+    flex: 1;
+    width: 10%;
+    font-size: 20pt;
+    margin-top: 5vh;
+    margin-bottom: -5vh;
+  }
+
+  .HeroImage{
+    width: 60%;
+  }
+
+  .HeroTitle{
+    margin: auto;
+    font-size: 24pt;
+    flex: 1;
+  }
 }
